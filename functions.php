@@ -1,5 +1,26 @@
  <?php
 
+function newtemplate_theme_support(){
+
+    add_theme_support('title-tag');
+}
+
+
+function newtemplate_menus(){
+
+
+    $locations = array(
+        'primary' => "desktop primary left sidebar",
+        'footer' => "footer menu items"
+    );
+    register_nav_menus($locations);
+
+}
+
+add_action('init','newtemplate_menus');
+
+
+add_action('after_setup_theme','newtemplate_theme_support');
 function newTmeplate_register_style(){
     $version  = wp_get_theme()->get("Version");
     wp_enqueue_style('samer-bootstrap',"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",array(),'4.4.1','all');
