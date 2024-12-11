@@ -36,11 +36,11 @@
                         'menu'=>'primary',
                         'container'=>'',
                         'theme_location'=>'primary',
-                        'items_wrap'=>'<ul id="" class="navbar-nav flex-colzumn text-sm-center text-md-left"> %3$s   </ul>'
+                        'items_wrap'=>'<ul id="" class="navbar-nav flex-column text-sm-center text-md-left"> %3$s   </ul>'
                        ) 
                     )
-                ?>
-				<ul class="navbar-nav flex-colzumn text-sm-center text-md-left">
+				?>
+				<ul class="navbar-nav flex-column text-sm-center text-md-left">
 					<li class="nav-item active">
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
 					</li>

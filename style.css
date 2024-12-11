@@ -151,22 +151,23 @@ h6 {
 }
 
 .header .nav-item {
-    font-weight: bold
+    font-weight: bold;
+    color:var(--blue)
 }
 
-.header .nav-item.active .nav-link {
+.header .nav-item.active a {
     color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-item.active .nav-link:hover {
+.header .nav-bar .nav-item.active a:hover {
     text-decoration: none
 }
 
-.header .nav-item .nav-link {
+.header .nav-item a {
     color: rgba(255, 255, 255, 0.8)
 }
 
-.header .nav-item .nav-link:hover {
+.header .nav-item a:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.6)
 }
@@ -276,7 +277,7 @@ h6 {
     display: none
 }
 
-.blog-nav .nav-link {
+.blog-nav  a{
     background: var(--primary);
     color: #fff;
     font-size: 1rem;
@@ -285,14 +286,13 @@ h6 {
     position: relative
 }
 
-.blog-nav .nav-link:hover {
+.blog-nav a:hover {
     background: var(--secondary);
 }
 
 .blog-nav .nav-link-prev {
     border-right: 1px solid var(--secondary);
 }
-
 .blog-nav .arrow-prev {
     position: absolute;
     left: 1rem;
