@@ -151,15 +151,14 @@ h6 {
 }
 
 .header .nav-item {
-    font-weight: bold;
-    color:var(--blue)
+    font-weight: bold
 }
 
 .header .nav-item.active a {
     color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-bar .nav-item.active a:hover {
+.header .nav-item.active a:hover {
     text-decoration: none
 }
 
@@ -277,7 +276,7 @@ h6 {
     display: none
 }
 
-.blog-nav  a{
+.blog-nav  a {
     background: var(--primary);
     color: #fff;
     font-size: 1rem;
@@ -293,6 +292,14 @@ h6 {
 .blog-nav .nav-link-prev {
     border-right: 1px solid var(--secondary);
 }
+
+
+
+
+
+
+
+
 .blog-nav .arrow-prev {
     position: absolute;
     left: 1rem;
